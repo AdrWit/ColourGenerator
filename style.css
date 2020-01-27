@@ -1,0 +1,45 @@
+/* font-family: 'Quicksand', sans-serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand',
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FF4356;
+}
+
+.colour {
+  color: azure;
+  font-size: 76px;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.generate {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: 5px solid #fff;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+  background-image: linear-gradient(to bottom, transparent 50%, #2ECC5D 50%);
+  background-size: 200% 200%;
+}
+
+.generate:hover {
+  background-position: 0 100%;
+}
